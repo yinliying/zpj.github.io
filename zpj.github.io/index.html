@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #c6e2d8;
+        }
+
+
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: rgb(233, 240, 201);
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e7b7e0;
+        }
+
+  
+        .topnav a {
+            float: left;
+            display: block;
+            color: #948294;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+  
+        .topnav a:hover {
+            background-color: #b27979;
+            color: black;
+        }
+
+  
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+       
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+	
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+    
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+      
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+      
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+       
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <title>照片集</title>
+    <div class="header">
+        <h1>照片集</h1>
+        <p>记录生活中的美好</p>
+    </div>
+
+    <div class="topnav">
+		<a href="index.html" >首页</a>
+        <a href="p1.html">风景</a>
+        <a href="p2.html">鲜花</a>
+        <a href="p3.html">旅行</a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>蓝色的天空</h2>
+                <h5>幸运  Jun 6, 2024</h5>
+                <div class="fakeimg" style="height:400px;"><img src="img/p1.jpg" width="100%" height="400"></div>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="card">
+                <h2>各色的花</h2>
+                <h5>美丽  Jun 6, 2024</h5>
+                <div class="fakeimg" style="height:400px;"><img src="img/p2.jpg" width="100%" height="400"></div>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="fakeimg">
+                <h2>校园</h2>
+                <div class="fakeimg" style="height:200px;"><img src="img/x3.jpg" width="100%" height="200"></div>
+                <p></p>
+            </div>
+            <div class="fakeimg">
+                <h3>旅行</h3>
+                <div class="fakeimg">
+                    <p><img src="img/x4.jpg" width="100%" height="200"></p>
+                </div>
+                <div class="fakeimg">
+                    <p><img src="img/x1.jpg" width="100%" height="200"></p>
+                </div>
+                <div class="fakeimg">
+                    <p><img src="img/x2.jpg" width="100%" height="200"></p>
+                </div>
+            </div>
+            <div class="fakeimg">
+                <h3>展望</h3>
+                <p>未来是属于有梦想的人，让我们不忘初心，继续前进，为未来而奋斗。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fakeimg">
+        <h2><img src="img/x5.jpg" width="100%" height="200"></h2>
+    </div>
+
+</body>
+
+</html>
+
+ 
+ 
