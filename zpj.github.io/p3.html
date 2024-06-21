@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #c6e2d8;
+        }
+
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: rgb(233, 240, 201);
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e7b7e0;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #948294;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: #b27979;
+            color: black;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 50%;
+        }
+
+        .rightcolumn {
+            float: left;
+            width: 50%;
+            background-color: #cae3b3;
+            padding-left: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <title>旅行</title>
+    <div class="header">
+        <h1>旅行</h1>
+        <p>记录生活中的美好</p>
+    </div>
+
+    <div class="topnav">
+        <a href="1.html" >首页</a>
+        <a href="p1.html">风景</a>
+        <a href="p2.html">鲜花</a>
+        <a href="p3.html">旅行</a>
+       
+    </div>
+
+    <div class="row">
+        <div class="fakeimg">
+            <h2>游览</h2>
+        </div>
+        <div class="leftcolumn">
+            <div class="card">
+                <div class="fakeimg">
+                    <p><img src="img/l1.jpg" width="100%" height="1000"></p>
+                    <p><img src="img/l2.jpg" width="100%" height="1000"></p>
+                </div>  
+                
+            </div>
+            
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <div class="fakeimg">
+                    <p><img src="img/l3.jpg" width="100%" height="1000"></p>
+                </div>
+                <div class="fakeimg">
+                    <p><img src="img/l5.jpg" width="100%" height="1000"></p>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="fakeimg">
+            <h2><img src="img/l4.jpg" width="100%" height="800"></h2>
+        </div>
+    
+    </div>
+
